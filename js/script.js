@@ -111,13 +111,13 @@ $(document).ready(function () {
 
     if ($(window).width() < 480) {
       if (scroll > 100) {
-        $(".menu").css({
+        $("#contenedor-menu").css({
           "background": "#fff"
         });
-        $(".menu").css({
+        $("#contenedor-menu").css({
           "padding": "5px 0"
         });
-        $(".menu").addClass("shadow");
+        $("#contenedor-menu").addClass("shadow");
         $("nav ul li a").css({
           "color": "#30374b"
         });
@@ -125,13 +125,13 @@ $(document).ready(function () {
           "color": "#000"
         });
       } else {
-        $(".menu").css({
+        $("#contenedor-menu").css({
           "background": "transparent"
         });
-        $(".menu").css({
+        $("#contenedor-menu").css({
           "padding": "20px 0"
         });
-        $(".menu").removeClass("shadow");
+        $("#contenedor-menu").removeClass("shadow");
         $("nav ul li a").css({
           "color": "#fff"
         });
@@ -149,14 +149,10 @@ $(document).ready(function () {
   if ($(window).width() < 500) {
     $('.menu-icon').on('click', function () {
       $('nav').slideToggle();
-    })
+    });
   }
 
-
-
-
-
-})
+});
 
 // Enviar correo
 $(document).ready(function () {
