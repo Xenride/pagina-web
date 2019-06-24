@@ -36,7 +36,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-<<<<<<< HEAD
 }
 
 nav.menu-container {
@@ -45,8 +44,6 @@ nav.menu-container {
 
 #contenedor-menu .menu-icon {
   display: none;
-=======
->>>>>>> origin/master
 }
 
 header .logo {
@@ -542,173 +539,6 @@ footer p {
 
 #whatsapp {
   position: fixed;
-<<<<<<< HEAD
   top: 88%;
   right: 2%;
-=======
-  top: 80%;
-  right: 2%;
-}
-
-@media screen and (max-width: 800px) {
-
-  .titulo h1 {
-    font-size: 32px;
-  }
-
-  .titulo h2 {
-    margin-bottom: 40px;
-    font-size: 17px;
-  }
-
-  #about .contenido {
-    flex-direction: column;
-  }
-
-  #about img {
-    width: 100%;
-  }
-
-  #about .about-text {
-    width: 100%;
-  }
-
-  .contenedor-servicios {
-    flex-direction: column;
-  }
-
-  .contenedor-servicios .servicio {
-    width: 82%;
-    padding: 34px 30px 46px 30px;
-  }
-
-  .contenedor-servicios .icono {
-    margin-top: 27px;
-  }
-
-  #trabajar-conmigo h3,
-  #hosting h3 {
-    font-size: 34px;
-  }
-
-  #trabajar-conmigo .contenedor-trabajar {
-    flex-direction: column;
-  }
-
-  #trabajar-conmigo .item ul {
-    padding: 0;
-  }
-
-  #trabajar-conmigo .item {
-    width: 100%;
-  }
-
-  #wordpress h3 {
-    font-size: 30px;
-  }
-
-  #wordpress .contenedor-wordpress {
-    flex-direction: column;
-  }
-
-  #wordpress img {
-    width: 100%;
-  }
-
-  #wordpress .wordpress-texto {
-    width: 100%;
-  }
-
-  #hosting p {
-    width: 100%;
-  }
-
-  #hosting .contenedor-info {
-    flex-direction: column;
-  }
-
-  #hosting .contenedor-info .info {
-    width: 100%;
-  }
-
-  #blog .contenido {
-    flex-direction: column;
-  }
-
-  #blog .contenido .blog-single {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  #contacto .form {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  input[type="text"],
-  input[type="email"] {
-    width: 100%;
-  }
-
-  .contacto-info {
-    flex-direction: column;
-  }
-
-  .mail {
-    margin-bottom: 20px;
-  }
-
-  footer img {
-    margin: 0 19px;
-  }
-
-  #contenedor-menu .menu-icon {
-    display: block;
-    float: right;
-    padding-bottom: 20px;
-    margin-top: 17px;
-  }
-
-  header nav {
-    position: absolute;
-    top: 83px;
-    left: 0;
-    height: 268px;
-    background: #5cb8ff;
-    width: 100%;
-    display: none;
-  }
-
-  header nav ul {
-    flex-direction: column;
-  }
-
-  header nav ul li {
-    margin-bottom: 15px;
-  }
-
-  .success {
-    right: 17%;
-  }
-
-}
-
-@media screen and (min-width: 500px) and (max-width:800px) {
-  header {
-    margin-top: -185px;
-    height: 61vh;
-  }
-
-  .contenedor-servicios .servicio {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 60px;
-  }
-
-  #blog .contenido .blog-single {
-    width: 60%;
-    margin: auto;
-    margin-bottom: 50px;
-  }
->>>>>>> origin/master
 }
