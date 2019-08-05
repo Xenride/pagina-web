@@ -58,6 +58,9 @@ section {
 header .logo {
   color: #fff;
   font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 100;
   font-family: 'Righteous', cursive;
 }
 
