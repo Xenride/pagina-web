@@ -2,15 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#servicios,
-#about,
-#trabajos,
-#trabajar-conmigo,
-#blog,
-#contacto {
-  padding: 90px 0;
-}
-
 body {
   background: #fff;
   font-family: 'Poppins', 'sans-serif';
@@ -24,27 +15,45 @@ body {
   margin: auto;
 }
 
-header {
-  height: 100vh;
-  background-size: cover;
-  background: url('imagenes/office-me.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 #contenedor-menu {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
 }
 
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(84, 93, 220, .9), rgba(96, 171, 245, .9)), url('imagenes/office-me.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: -150px;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  transition: .3s;
+  z-index: 999;
+}
+
+.shadow {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
 nav.menu-container {
   max-width: 100vw;
 }
 
-#contenedor-menu .menu-icon {
+.menu-icon {
   display: none;
 }
+
+section {
+  padding: 90px 0;
+}
+
+
 
 header .logo {
   color: #fff;
@@ -73,6 +82,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   margin: 18vh 0;
+  padding-top: 250px;
 }
 
 .contenedor-titulo h1 {
